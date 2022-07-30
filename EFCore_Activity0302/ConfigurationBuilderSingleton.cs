@@ -27,10 +27,7 @@ namespace EFCore_Activity0302_
             { 
                 lock(instanceLock)
                 {
-                    if (_instance==null)
-                    {
-                        _instance = new ConfigurationBuilderSingleton();
-                    }
+                    if (_instance==null){_instance = new ConfigurationBuilderSingleton();}
                 }
                 return _instance; 
             
