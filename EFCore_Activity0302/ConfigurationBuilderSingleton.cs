@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
-namespace EFCore_Activity0302_
+namespace EFCore_Activity0302
 {
     public class ConfigurationBuilderSingleton
     {

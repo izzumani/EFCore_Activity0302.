@@ -1,11 +1,13 @@
-﻿using EFCore_Activity0302_;
+﻿using EFCore_Activity0302;
+using EFCore_DBLibrary;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using System;
 
 public class Program
 {
     private static IConfigurationRoot _configuration;
-    //private static DBContextOptionsBuilder<InventoryDbContext> _optionBuilder;
+    private static DbContextOptionsBuilder<InventoryDbContext> _optionBuilder;
 
     static void Main(string[] args)
     {
@@ -18,8 +20,8 @@ public class Program
     static void BuildOptions()
     {
         _configuration = ConfigurationBuilderSingleton.ConfigurationRoot;
-        // _optionBuilder =  new DBContextOptionsBuilder<InventoryDbContext>();
-        // optionsBuilder.UseSqlServer(_configuration.GetConnectionString("InventoryManager"));
+        _optionBuilder =  new DbContextOptionsBuilder<InventoryDbContext>();
+        _optionBuilder.UseSqlServer(_configuration.GetConnectionString("InventoryManager"));
 
     }
 }
