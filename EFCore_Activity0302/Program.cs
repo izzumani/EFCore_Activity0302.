@@ -1,5 +1,5 @@
-﻿using EFCore_Activity0302;
-using EFCore_DBLibrary;
+﻿using EFCore_DBLibrary;
+using Inventory.Common.ConfigBuilder;
 using InventoryModels;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;

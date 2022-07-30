@@ -9,6 +9,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="ConfigurationBuilderSingleton.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Remove="appsettings.json" />
   </ItemGroup>
 
@@ -32,6 +36,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\EFCore_DBLibrary\EFCore_DBLibrary.csproj" />
+    <ProjectReference Include="..\Inventory.Common\Inventory.Common.csproj" />
     <ProjectReference Include="..\InventoryModels\InventoryModels.csproj" />
   </ItemGroup>
 

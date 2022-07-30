@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using Inventory.Common.ConfigBuilder;
 using InventoryModels;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -24,13 +25,16 @@ namespace EFCore_DBLibrary
             if (!optionsBuilder.IsConfigured)
             {
                 //optionsBuilder.UseSqlServer("Data Source=localhost;Initial Catalog= InventoryManagerDb;User ID=sa;Password=friend");
+                /*
                 var builder = new ConfigurationBuilder()
                                     .SetBasePath(Directory.GetCurrentDirectory())
                                     .AddJsonFile("appsettings.json", optional: true,reloadOnChange: true);
                  _configuration = builder.Build();
-                var cnstr = _configuration.GetConnectionString("InventoryManager");
+                */
+                _configuration = ConfigurationBuilderSingleton.ConfigurationRoot;
+                string cnstr = _configuration.GetConnectionString("InventoryManager");
+                
                 optionsBuilder.UseSqlServer(cnstr);
-
             }
         }
 
