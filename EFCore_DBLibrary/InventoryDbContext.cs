@@ -22,6 +22,7 @@ namespace EFCore_DBLibrary
         }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
+            
             if (!optionsBuilder.IsConfigured)
             {
                 //optionsBuilder.UseSqlServer("Data Source=localhost;Initial Catalog= InventoryManagerDb;User ID=sa;Password=friend");
