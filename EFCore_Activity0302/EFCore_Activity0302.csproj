@@ -32,6 +32,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\EFCore_DBLibrary\EFCore_DBLibrary.csproj" />
+    <ProjectReference Include="..\InventoryModels\InventoryModels.csproj" />
   </ItemGroup>
 
 </Project>
