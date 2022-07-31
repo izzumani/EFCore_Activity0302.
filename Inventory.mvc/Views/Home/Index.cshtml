@@ -1,0 +1,52 @@
+﻿@model List<InventoryModels.Models.Item>;
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<div class="card">
+  <div class="card-header">
+    Show Items
+  </div>
+  <div class="card-body">
+   <table class="table table-sm">
+  <thead>
+    <tr>
+      <th scope="col">ItemId</th>
+      <th scope="col">ItemName</th>
+      <th scope="col">Quantity</th>
+      <th scope="col">Description</th>
+      <th scope="col">Notes</th>
+      <th scope="col">OnSale</th>
+      <th scope="col">PurchasedDate</th>
+      <th scope="col">SoldDate</th>
+      <th scope="col">PurchasePrice</th>
+      <th scope="col">CurrentOrFinalPrice</th>
+      <th scope="col">Category</th>
+    </tr>
+  </thead>
+  <tbody>
+      @foreach (var item in Model)
+                {
+                    <tr>
+                        <th scope="row">@item.Id</th>
+                        <td>@item.Name</td>
+                        <td>@item.Quantity</td>
+                        <td>@item.Description</td>
+                        <td>@item.Notes</td>
+                        <td>@item.IsOnSale</td>
+                        <td>@item.PurchasedDate</td>
+                        <td>@item.SoldDate</td>
+                        <td>@item.PurchasePrice</td>
+                        <td>@item.CurrentOrFinalPrice</td>
+                        <td>@item.CategoryId</td>
+                    </tr>            
+                }
+          
+      
+    
+    
+  </tbody>
+</table>
+  </div>
+</div>

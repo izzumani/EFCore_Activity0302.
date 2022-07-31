@@ -1,0 +1,317 @@
+2022-07-31 20:33:19.814 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Index.cshtml'.
+2022-07-31 20:33:19.925 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Privacy.cshtml'.
+2022-07-31 20:33:19.933 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Error.cshtml'.
+2022-07-31 20:33:19.935 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_ValidationScriptsPartial.cshtml'.
+2022-07-31 20:33:19.936 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewImports.cshtml'.
+2022-07-31 20:33:19.938 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewStart.cshtml'.
+2022-07-31 20:33:19.940 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_Layout.cshtml'.
+2022-07-31 20:33:20.002 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-07-31 20:33:21.191 +03:00 [DBG] Hosting starting
+2022-07-31 20:33:21.334 +03:00 [INF] User profile is available. Using 'C:\Users\izzumani_win\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-31 20:33:21.343 +03:00 [DBG] Reading data from file 'C:\Users\izzumani_win\AppData\Local\ASP.NET\DataProtection-Keys\key-0bfb62cf-65d6-4777-9c56-6c7ff1dfa830.xml'.
+2022-07-31 20:33:21.354 +03:00 [DBG] Reading data from file 'C:\Users\izzumani_win\AppData\Local\ASP.NET\DataProtection-Keys\key-3fd24b06-7eb1-4784-aa35-57171e2d0d1c.xml'.
+2022-07-31 20:33:21.357 +03:00 [DBG] Reading data from file 'C:\Users\izzumani_win\AppData\Local\ASP.NET\DataProtection-Keys\key-45d28892-3498-43e0-8e6e-a1c17746a3e6.xml'.
+2022-07-31 20:33:21.361 +03:00 [DBG] Reading data from file 'C:\Users\izzumani_win\AppData\Local\ASP.NET\DataProtection-Keys\key-4ee02695-544f-4df7-a903-ccbcd4a7ddbe.xml'.
+2022-07-31 20:33:21.367 +03:00 [DBG] Reading data from file 'C:\Users\izzumani_win\AppData\Local\ASP.NET\DataProtection-Keys\key-717c948a-07e9-4176-aba5-206d2e2bf2a8.xml'.
+2022-07-31 20:33:21.451 +03:00 [DBG] Reading data from file 'C:\Users\izzumani_win\AppData\Local\ASP.NET\DataProtection-Keys\key-c5a94562-53fe-4544-b104-96e9bc245588.xml'.
+2022-07-31 20:33:21.454 +03:00 [DBG] Reading data from file 'C:\Users\izzumani_win\AppData\Local\ASP.NET\DataProtection-Keys\key-fcbc92d5-2298-4744-b2d1-077db70ea4e6.xml'.
+2022-07-31 20:33:21.471 +03:00 [DBG] Found key {0bfb62cf-65d6-4777-9c56-6c7ff1dfa830}.
+2022-07-31 20:33:21.604 +03:00 [DBG] Found key {3fd24b06-7eb1-4784-aa35-57171e2d0d1c}.
+2022-07-31 20:33:21.621 +03:00 [DBG] Found key {45d28892-3498-43e0-8e6e-a1c17746a3e6}.
+2022-07-31 20:33:21.638 +03:00 [DBG] Found key {4ee02695-544f-4df7-a903-ccbcd4a7ddbe}.
+2022-07-31 20:33:21.657 +03:00 [DBG] Found key {717c948a-07e9-4176-aba5-206d2e2bf2a8}.
+2022-07-31 20:33:21.694 +03:00 [DBG] Found key {c5a94562-53fe-4544-b104-96e9bc245588}.
+2022-07-31 20:33:21.698 +03:00 [DBG] Found key {fcbc92d5-2298-4744-b2d1-077db70ea4e6}.
+2022-07-31 20:33:21.721 +03:00 [DBG] Considering key {45d28892-3498-43e0-8e6e-a1c17746a3e6} with expiration date 2022-08-22 23:23:52Z as default key.
+2022-07-31 20:33:21.739 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2022-07-31 20:33:21.749 +03:00 [DBG] Decrypting secret element using Windows DPAPI.
+2022-07-31 20:33:21.753 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2022-07-31 20:33:21.769 +03:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2022-07-31 20:33:21.778 +03:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2022-07-31 20:33:21.786 +03:00 [DBG] Using key {45d28892-3498-43e0-8e6e-a1c17746a3e6} as the default key.
+2022-07-31 20:33:21.791 +03:00 [DBG] Key ring with default key {45d28892-3498-43e0-8e6e-a1c17746a3e6} was loaded during application startup.
+2022-07-31 20:33:21.993 +03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: A7B77B048C020526A92359B1267EBBB57A0F3CE3)
+2022-07-31 20:33:22.080 +03:00 [INF] Now listening on: https://localhost:7215
+2022-07-31 20:33:22.083 +03:00 [INF] Now listening on: http://localhost:5215
+2022-07-31 20:33:22.087 +03:00 [DBG] Loaded hosting startup assembly Inventory.mvc
+2022-07-31 20:33:22.089 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-07-31 20:33:22.092 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-07-31 20:33:22.095 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-31 20:33:22.097 +03:00 [INF] Hosting environment: Development
+2022-07-31 20:33:22.099 +03:00 [INF] Content root path: E:\ProjectExercise\PracticalEntityFrameworkCore6Database\EFCore_Activity0302\Inventory.mvc\
+2022-07-31 20:33:22.103 +03:00 [DBG] Hosting started
+2022-07-31 20:33:22.348 +03:00 [DBG] Connection id "0HMJJ3B228KJV" accepted.
+2022-07-31 20:33:22.351 +03:00 [DBG] Connection id "0HMJJ3B228KK0" accepted.
+2022-07-31 20:33:22.384 +03:00 [DBG] Connection id "0HMJJ3B228KJV" received FIN.
+2022-07-31 20:33:22.384 +03:00 [DBG] Connection id "0HMJJ3B228KK0" received FIN.
+2022-07-31 20:33:22.385 +03:00 [DBG] Connection id "0HMJJ3B228KK0" started.
+2022-07-31 20:33:22.385 +03:00 [DBG] Connection id "0HMJJ3B228KJV" started.
+2022-07-31 20:33:22.417 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-07-31 20:33:22.417 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-07-31 20:33:22.504 +03:00 [DBG] Connection id "0HMJJ3B228KJV" stopped.
+2022-07-31 20:33:22.506 +03:00 [DBG] Connection id "0HMJJ3B228KK0" stopped.
+2022-07-31 20:33:22.521 +03:00 [DBG] Connection id "0HMJJ3B228KJV" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-07-31 20:33:22.524 +03:00 [DBG] Connection id "0HMJJ3B228KK0" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-07-31 20:33:22.962 +03:00 [DBG] Connection id "0HMJJ3B228KK1" accepted.
+2022-07-31 20:33:23.372 +03:00 [DBG] Connection id "0HMJJ3B228KK1" started.
+2022-07-31 20:33:23.467 +03:00 [DBG] Connection 0HMJJ3B228KK1 established using the following protocol: "Tls12"
+2022-07-31 20:33:23.623 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7215/ - -
+2022-07-31 20:33:23.678 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-07-31 20:33:23.685 +03:00 [DBG] The request path / does not match a supported file type
+2022-07-31 20:33:23.739 +03:00 [DBG] 1 candidate(s) found for the request path '/'
+2022-07-31 20:33:23.754 +03:00 [DBG] Endpoint 'Inventory.mvc.Controllers.HomeController.Index (Inventory.mvc)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/'
+2022-07-31 20:33:23.760 +03:00 [DBG] Request matched endpoint 'Inventory.mvc.Controllers.HomeController.Index (Inventory.mvc)'
+2022-07-31 20:33:23.768 +03:00 [INF] Executing endpoint 'Inventory.mvc.Controllers.HomeController.Index (Inventory.mvc)'
+2022-07-31 20:33:23.839 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Inventory.mvc.Controllers.HomeController (Inventory.mvc).
+2022-07-31 20:33:23.847 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-07-31 20:33:23.851 +03:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2022-07-31 20:33:23.856 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2022-07-31 20:33:23.862 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-07-31 20:33:23.868 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2022-07-31 20:33:23.874 +03:00 [DBG] Executing controller factory for controller Inventory.mvc.Controllers.HomeController (Inventory.mvc)
+2022-07-31 20:33:24.870 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-07-31 20:33:24.940 +03:00 [DBG] Start Logging with Serilog on HomeController
+2022-07-31 20:33:24.947 +03:00 [DBG] Executed controller factory for controller Inventory.mvc.Controllers.HomeController (Inventory.mvc)
+2022-07-31 20:33:30.842 +03:00 [DBG] The index {'ItemId'} was not created on entity type 'ItemGenre' as the properties are already covered by the index {'ItemId', 'GenreId'}.
+2022-07-31 20:33:30.847 +03:00 [DBG] The index {'ItemId'} was not created on entity type 'ItemPlayers (Dictionary<string, object>)' as the properties are already covered by the index {'ItemId', 'PlayerId'}.
+2022-07-31 20:33:31.055 +03:00 [WRN] No store type was specified for the decimal property 'CurrentOrFinalPrice' on entity type 'Item'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2022-07-31 20:33:31.059 +03:00 [WRN] No store type was specified for the decimal property 'PurchasePrice' on entity type 'Item'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2022-07-31 20:33:31.367 +03:00 [INF] Entity Framework Core 6.0.7 initialized 'InventoryDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.7' with options: None
+2022-07-31 20:33:31.774 +03:00 [DBG] Compiling query expression: 
+'DbSet<Item>()
+    .OrderBy(x => x.Name)'
+2022-07-31 20:33:32.438 +03:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Item>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Item.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Item.CategoryId (int?) FK Index, 1], [Property: Item.CreatedByUserId (string) Required MaxLength(50), 2], [Property: Item.CreatedDate (DateTime) Required, 3], [Property: Item.CurrentOrFinalPrice (decimal?), 4], [Property: Item.Description (string) Required MaxLength(250), 5], [Property: Item.IsActive (bool) Required, 6], [Property: Item.IsDeleted (bool) Required, 7], [Property: Item.IsOnSale (bool) Required, 8], [Property: Item.LastModifiedDate (DateTime?), 9], [Property: Item.LastModifiedUserId (string) MaxLength(50), 10], [Property: Item.Name (string) Required MaxLength(100), 11], [Property: Item.Notes (string) Required MaxLength(2000), 12], [Property: Item.PurchasePrice (decimal?), 13], [Property: Item.PurchasedDate (DateTime?), 14], [Property: Item.Quantity (int) Required, 15], [Property: Item.SoldDate (DateTime?), 16] }
+        SELECT i.Id, i.CategoryId, i.CreatedByUserId, i.CreatedDate, i.CurrentOrFinalPrice, i.Description, i.IsActive, i.IsDeleted, i.IsOnSale, i.LastModifiedDate, i.LastModifiedUserId, i.Name, i.Notes, i.PurchasePrice, i.PurchasedDate, i.Quantity, i.SoldDate
+        FROM Items AS i
+        ORDER BY i.Name ASC), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Item>, 
+    EFCore_DBLibrary.InventoryDbContext, 
+    False, 
+    False, 
+    True
+)'
+2022-07-31 20:33:32.552 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-07-31 20:33:32.640 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (85ms).
+2022-07-31 20:33:32.652 +03:00 [DBG] Opening connection to database 'InventoryManagerDb' on server 'localhost'.
+2022-07-31 20:33:33.501 +03:00 [DBG] Opened connection to database 'InventoryManagerDb' on server 'localhost'.
+2022-07-31 20:33:33.518 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [i].[Id], [i].[CategoryId], [i].[CreatedByUserId], [i].[CreatedDate], [i].[CurrentOrFinalPrice], [i].[Description], [i].[IsActive], [i].[IsDeleted], [i].[IsOnSale], [i].[LastModifiedDate], [i].[LastModifiedUserId], [i].[Name], [i].[Notes], [i].[PurchasePrice], [i].[PurchasedDate], [i].[Quantity], [i].[SoldDate]
+FROM [Items] AS [i]
+ORDER BY [i].[Name]
+2022-07-31 20:33:33.589 +03:00 [INF] Executed DbCommand (73ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [i].[Id], [i].[CategoryId], [i].[CreatedByUserId], [i].[CreatedDate], [i].[CurrentOrFinalPrice], [i].[Description], [i].[IsActive], [i].[IsDeleted], [i].[IsOnSale], [i].[LastModifiedDate], [i].[LastModifiedUserId], [i].[Name], [i].[Notes], [i].[PurchasePrice], [i].[PurchasedDate], [i].[Quantity], [i].[SoldDate]
+FROM [Items] AS [i]
+ORDER BY [i].[Name]
+2022-07-31 20:33:33.655 +03:00 [DBG] Context 'InventoryDbContext' started tracking 'Item' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-07-31 20:33:33.736 +03:00 [DBG] Context 'InventoryDbContext' started tracking 'Item' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-07-31 20:33:33.739 +03:00 [DBG] Context 'InventoryDbContext' started tracking 'Item' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-07-31 20:33:33.742 +03:00 [DBG] Context 'InventoryDbContext' started tracking 'Item' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-07-31 20:33:33.746 +03:00 [DBG] Context 'InventoryDbContext' started tracking 'Item' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-07-31 20:33:33.765 +03:00 [DBG] A data reader was disposed.
+2022-07-31 20:33:33.778 +03:00 [DBG] Closing connection to database 'InventoryManagerDb' on server 'localhost'.
+2022-07-31 20:33:33.790 +03:00 [DBG] Closed connection to database 'InventoryManagerDb' on server 'localhost'.
+2022-07-31 20:33:33.800 +03:00 [DBG] View lookup cache miss for view 'Index' in controller 'Home'.
+2022-07-31 20:33:33.806 +03:00 [INF] Executing ViewResult, running view Index.
+2022-07-31 20:33:33.816 +03:00 [DBG] The view path '/Views/Home/Index.cshtml' was found in 8.6209ms.
+2022-07-31 20:33:33.848 +03:00 [DBG] View lookup cache miss for view '_Layout' in controller 'Home'.
+2022-07-31 20:33:33.886 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2022-07-31 20:33:33.898 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2022-07-31 20:33:33.902 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2022-07-31 20:33:33.906 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2022-07-31 20:33:33.910 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2022-07-31 20:33:33.913 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2022-07-31 20:33:33.915 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2022-07-31 20:33:33.920 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2022-07-31 20:33:33.924 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Privacy
+2022-07-31 20:33:33.927 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2022-07-31 20:33:33.930 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2022-07-31 20:33:33.933 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Privacy
+2022-07-31 20:33:33.951 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-07-31 20:33:33.982 +03:00 [INF] Executed ViewResult - view Index executed in 182.9945ms.
+2022-07-31 20:33:33.985 +03:00 [INF] Executed action Inventory.mvc.Controllers.HomeController.Index (Inventory.mvc) in 10112.8525ms
+2022-07-31 20:33:33.987 +03:00 [INF] Executed endpoint 'Inventory.mvc.Controllers.HomeController.Index (Inventory.mvc)'
+2022-07-31 20:33:33.989 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-07-31 20:33:34.005 +03:00 [DBG] 'InventoryDbContext' disposed.
+2022-07-31 20:33:34.017 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7215/ - - - 200 - text/html;+charset=utf-8 10401.4752ms
+2022-07-31 20:33:34.065 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7215/Inventory.mvc.styles.css?v=yIsg_4Vunlkc4STLR93hRRXuPPEZDynRWuLi4q3D6mA - -
+2022-07-31 20:33:34.084 +03:00 [INF] Sending file. Request path: '/Inventory.mvc.styles.css'. Physical path: 'E:\ProjectExercise\PracticalEntityFrameworkCore6Database\EFCore_Activity0302\Inventory.mvc\obj\Debug\net6.0\scopedcss\bundle\Inventory.mvc.styles.css'
+2022-07-31 20:33:34.088 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7215/Inventory.mvc.styles.css?v=yIsg_4Vunlkc4STLR93hRRXuPPEZDynRWuLi4q3D6mA - - - 200 1130 text/css 22.8858ms
+2022-07-31 20:33:34.173 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - -
+2022-07-31 20:33:34.185 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - - - 200 11995 application/javascript;+charset=utf-8 11.9908ms
+2022-07-31 20:45:31.543 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Index.cshtml'.
+2022-07-31 20:45:31.674 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Privacy.cshtml'.
+2022-07-31 20:45:31.679 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Error.cshtml'.
+2022-07-31 20:45:31.681 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_ValidationScriptsPartial.cshtml'.
+2022-07-31 20:45:31.683 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewImports.cshtml'.
+2022-07-31 20:45:31.685 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewStart.cshtml'.
+2022-07-31 20:45:31.687 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_Layout.cshtml'.
+2022-07-31 20:45:31.717 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-07-31 20:45:31.872 +03:00 [DBG] Hosting starting
+2022-07-31 20:45:31.957 +03:00 [INF] User profile is available. Using 'C:\Users\izzumani_win\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-31 20:45:31.965 +03:00 [DBG] Reading data from file 'C:\Users\izzumani_win\AppData\Local\ASP.NET\DataProtection-Keys\key-0bfb62cf-65d6-4777-9c56-6c7ff1dfa830.xml'.
+2022-07-31 20:45:31.974 +03:00 [DBG] Reading data from file 'C:\Users\izzumani_win\AppData\Local\ASP.NET\DataProtection-Keys\key-3fd24b06-7eb1-4784-aa35-57171e2d0d1c.xml'.
+2022-07-31 20:45:31.977 +03:00 [DBG] Reading data from file 'C:\Users\izzumani_win\AppData\Local\ASP.NET\DataProtection-Keys\key-45d28892-3498-43e0-8e6e-a1c17746a3e6.xml'.
+2022-07-31 20:45:31.980 +03:00 [DBG] Reading data from file 'C:\Users\izzumani_win\AppData\Local\ASP.NET\DataProtection-Keys\key-4ee02695-544f-4df7-a903-ccbcd4a7ddbe.xml'.
+2022-07-31 20:45:31.983 +03:00 [DBG] Reading data from file 'C:\Users\izzumani_win\AppData\Local\ASP.NET\DataProtection-Keys\key-717c948a-07e9-4176-aba5-206d2e2bf2a8.xml'.
+2022-07-31 20:45:31.986 +03:00 [DBG] Reading data from file 'C:\Users\izzumani_win\AppData\Local\ASP.NET\DataProtection-Keys\key-c5a94562-53fe-4544-b104-96e9bc245588.xml'.
+2022-07-31 20:45:31.989 +03:00 [DBG] Reading data from file 'C:\Users\izzumani_win\AppData\Local\ASP.NET\DataProtection-Keys\key-fcbc92d5-2298-4744-b2d1-077db70ea4e6.xml'.
+2022-07-31 20:45:32.004 +03:00 [DBG] Found key {0bfb62cf-65d6-4777-9c56-6c7ff1dfa830}.
+2022-07-31 20:45:32.018 +03:00 [DBG] Found key {3fd24b06-7eb1-4784-aa35-57171e2d0d1c}.
+2022-07-31 20:45:32.088 +03:00 [DBG] Found key {45d28892-3498-43e0-8e6e-a1c17746a3e6}.
+2022-07-31 20:45:32.094 +03:00 [DBG] Found key {4ee02695-544f-4df7-a903-ccbcd4a7ddbe}.
+2022-07-31 20:45:32.098 +03:00 [DBG] Found key {717c948a-07e9-4176-aba5-206d2e2bf2a8}.
+2022-07-31 20:45:32.102 +03:00 [DBG] Found key {c5a94562-53fe-4544-b104-96e9bc245588}.
+2022-07-31 20:45:32.104 +03:00 [DBG] Found key {fcbc92d5-2298-4744-b2d1-077db70ea4e6}.
+2022-07-31 20:45:32.122 +03:00 [DBG] Considering key {45d28892-3498-43e0-8e6e-a1c17746a3e6} with expiration date 2022-08-22 23:23:52Z as default key.
+2022-07-31 20:45:32.133 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2022-07-31 20:45:32.147 +03:00 [DBG] Decrypting secret element using Windows DPAPI.
+2022-07-31 20:45:32.154 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2022-07-31 20:45:32.165 +03:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2022-07-31 20:45:32.171 +03:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2022-07-31 20:45:32.179 +03:00 [DBG] Using key {45d28892-3498-43e0-8e6e-a1c17746a3e6} as the default key.
+2022-07-31 20:45:32.181 +03:00 [DBG] Key ring with default key {45d28892-3498-43e0-8e6e-a1c17746a3e6} was loaded during application startup.
+2022-07-31 20:45:32.364 +03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: A7B77B048C020526A92359B1267EBBB57A0F3CE3)
+2022-07-31 20:45:32.440 +03:00 [INF] Now listening on: https://localhost:7215
+2022-07-31 20:45:32.445 +03:00 [INF] Now listening on: http://localhost:5215
+2022-07-31 20:45:32.449 +03:00 [DBG] Loaded hosting startup assembly Inventory.mvc
+2022-07-31 20:45:32.451 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-07-31 20:45:32.453 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-07-31 20:45:32.455 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-31 20:45:32.462 +03:00 [INF] Hosting environment: Development
+2022-07-31 20:45:32.464 +03:00 [INF] Content root path: E:\ProjectExercise\PracticalEntityFrameworkCore6Database\EFCore_Activity0302\Inventory.mvc\
+2022-07-31 20:45:32.467 +03:00 [DBG] Hosting started
+2022-07-31 20:45:32.686 +03:00 [DBG] Connection id "0HMJJ3HRNCB11" received FIN.
+2022-07-31 20:45:32.703 +03:00 [DBG] Connection id "0HMJJ3HRNCB11" accepted.
+2022-07-31 20:45:32.718 +03:00 [DBG] Connection id "0HMJJ3HRNCB11" started.
+2022-07-31 20:45:32.791 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-07-31 20:45:32.905 +03:00 [DBG] Connection id "0HMJJ3HRNCB11" stopped.
+2022-07-31 20:45:33.082 +03:00 [DBG] Connection id "0HMJJ3HRNCB11" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-07-31 20:45:33.170 +03:00 [DBG] Connection id "0HMJJ3HRNCB12" accepted.
+2022-07-31 20:45:33.258 +03:00 [DBG] Connection id "0HMJJ3HRNCB12" started.
+2022-07-31 20:45:33.348 +03:00 [DBG] Connection 0HMJJ3HRNCB12 established using the following protocol: "Tls12"
+2022-07-31 20:45:33.478 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7215/ - -
+2022-07-31 20:45:33.792 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-07-31 20:45:33.804 +03:00 [DBG] The request path / does not match a supported file type
+2022-07-31 20:45:33.905 +03:00 [DBG] 1 candidate(s) found for the request path '/'
+2022-07-31 20:45:33.924 +03:00 [DBG] Endpoint 'Inventory.mvc.Controllers.HomeController.Index (Inventory.mvc)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/'
+2022-07-31 20:45:33.941 +03:00 [DBG] Request matched endpoint 'Inventory.mvc.Controllers.HomeController.Index (Inventory.mvc)'
+2022-07-31 20:45:33.956 +03:00 [INF] Executing endpoint 'Inventory.mvc.Controllers.HomeController.Index (Inventory.mvc)'
+2022-07-31 20:45:34.041 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Inventory.mvc.Controllers.HomeController (Inventory.mvc).
+2022-07-31 20:45:34.120 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-07-31 20:45:34.124 +03:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2022-07-31 20:45:34.132 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2022-07-31 20:45:34.137 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-07-31 20:45:34.140 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2022-07-31 20:45:34.152 +03:00 [DBG] Executing controller factory for controller Inventory.mvc.Controllers.HomeController (Inventory.mvc)
+2022-07-31 20:45:34.734 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-07-31 20:45:34.990 +03:00 [DBG] Start Logging with Serilog on HomeController
+2022-07-31 20:45:34.994 +03:00 [DBG] Executed controller factory for controller Inventory.mvc.Controllers.HomeController (Inventory.mvc)
+2022-07-31 20:45:41.139 +03:00 [DBG] The index {'ItemId'} was not created on entity type 'ItemGenre' as the properties are already covered by the index {'ItemId', 'GenreId'}.
+2022-07-31 20:45:41.172 +03:00 [DBG] The index {'ItemId'} was not created on entity type 'ItemPlayers (Dictionary<string, object>)' as the properties are already covered by the index {'ItemId', 'PlayerId'}.
+2022-07-31 20:45:41.536 +03:00 [WRN] No store type was specified for the decimal property 'CurrentOrFinalPrice' on entity type 'Item'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2022-07-31 20:45:41.541 +03:00 [WRN] No store type was specified for the decimal property 'PurchasePrice' on entity type 'Item'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2022-07-31 20:45:41.882 +03:00 [INF] Entity Framework Core 6.0.7 initialized 'InventoryDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.7' with options: None
+2022-07-31 20:45:41.972 +03:00 [DBG] Compiling query expression: 
+'DbSet<Item>()
+    .OrderBy(x => x.Name)'
+2022-07-31 20:45:42.813 +03:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Item>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Item.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Item.CategoryId (int?) FK Index, 1], [Property: Item.CreatedByUserId (string) Required MaxLength(50), 2], [Property: Item.CreatedDate (DateTime) Required, 3], [Property: Item.CurrentOrFinalPrice (decimal?), 4], [Property: Item.Description (string) Required MaxLength(250), 5], [Property: Item.IsActive (bool) Required, 6], [Property: Item.IsDeleted (bool) Required, 7], [Property: Item.IsOnSale (bool) Required, 8], [Property: Item.LastModifiedDate (DateTime?), 9], [Property: Item.LastModifiedUserId (string) MaxLength(50), 10], [Property: Item.Name (string) Required MaxLength(100), 11], [Property: Item.Notes (string) Required MaxLength(2000), 12], [Property: Item.PurchasePrice (decimal?), 13], [Property: Item.PurchasedDate (DateTime?), 14], [Property: Item.Quantity (int) Required, 15], [Property: Item.SoldDate (DateTime?), 16] }
+        SELECT i.Id, i.CategoryId, i.CreatedByUserId, i.CreatedDate, i.CurrentOrFinalPrice, i.Description, i.IsActive, i.IsDeleted, i.IsOnSale, i.LastModifiedDate, i.LastModifiedUserId, i.Name, i.Notes, i.PurchasePrice, i.PurchasedDate, i.Quantity, i.SoldDate
+        FROM Items AS i
+        ORDER BY i.Name ASC), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Item>, 
+    EFCore_DBLibrary.InventoryDbContext, 
+    False, 
+    False, 
+    True
+)'
+2022-07-31 20:45:42.887 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-07-31 20:45:42.965 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (72ms).
+2022-07-31 20:45:42.973 +03:00 [DBG] Opening connection to database 'InventoryManagerDb' on server 'localhost'.
+2022-07-31 20:45:43.326 +03:00 [DBG] Opened connection to database 'InventoryManagerDb' on server 'localhost'.
+2022-07-31 20:45:43.420 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [i].[Id], [i].[CategoryId], [i].[CreatedByUserId], [i].[CreatedDate], [i].[CurrentOrFinalPrice], [i].[Description], [i].[IsActive], [i].[IsDeleted], [i].[IsOnSale], [i].[LastModifiedDate], [i].[LastModifiedUserId], [i].[Name], [i].[Notes], [i].[PurchasePrice], [i].[PurchasedDate], [i].[Quantity], [i].[SoldDate]
+FROM [Items] AS [i]
+ORDER BY [i].[Name]
+2022-07-31 20:45:43.571 +03:00 [INF] Executed DbCommand (232ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [i].[Id], [i].[CategoryId], [i].[CreatedByUserId], [i].[CreatedDate], [i].[CurrentOrFinalPrice], [i].[Description], [i].[IsActive], [i].[IsDeleted], [i].[IsOnSale], [i].[LastModifiedDate], [i].[LastModifiedUserId], [i].[Name], [i].[Notes], [i].[PurchasePrice], [i].[PurchasedDate], [i].[Quantity], [i].[SoldDate]
+FROM [Items] AS [i]
+ORDER BY [i].[Name]
+2022-07-31 20:45:43.640 +03:00 [DBG] Context 'InventoryDbContext' started tracking 'Item' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-07-31 20:45:43.733 +03:00 [DBG] Context 'InventoryDbContext' started tracking 'Item' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-07-31 20:45:43.736 +03:00 [DBG] Context 'InventoryDbContext' started tracking 'Item' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-07-31 20:45:43.738 +03:00 [DBG] Context 'InventoryDbContext' started tracking 'Item' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-07-31 20:45:43.741 +03:00 [DBG] Context 'InventoryDbContext' started tracking 'Item' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-07-31 20:45:43.753 +03:00 [DBG] A data reader was disposed.
+2022-07-31 20:45:43.761 +03:00 [DBG] Closing connection to database 'InventoryManagerDb' on server 'localhost'.
+2022-07-31 20:45:43.774 +03:00 [DBG] Closed connection to database 'InventoryManagerDb' on server 'localhost'.
+2022-07-31 20:45:43.781 +03:00 [DBG] View lookup cache miss for view 'Index' in controller 'Home'.
+2022-07-31 20:45:43.791 +03:00 [INF] Executing ViewResult, running view Index.
+2022-07-31 20:45:43.799 +03:00 [DBG] The view path '/Views/Home/Index.cshtml' was found in 13.5882ms.
+2022-07-31 20:45:43.838 +03:00 [DBG] View lookup cache miss for view '_Layout' in controller 'Home'.
+2022-07-31 20:45:43.874 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2022-07-31 20:45:43.887 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2022-07-31 20:45:43.892 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2022-07-31 20:45:43.897 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2022-07-31 20:45:43.901 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2022-07-31 20:45:43.906 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2022-07-31 20:45:43.911 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2022-07-31 20:45:43.917 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2022-07-31 20:45:43.923 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Privacy
+2022-07-31 20:45:43.932 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2022-07-31 20:45:43.951 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2022-07-31 20:45:43.957 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Privacy
+2022-07-31 20:45:43.973 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-07-31 20:45:43.997 +03:00 [INF] Executed ViewResult - view Index executed in 216.5561ms.
+2022-07-31 20:45:44.000 +03:00 [INF] Executed action Inventory.mvc.Controllers.HomeController.Index (Inventory.mvc) in 9850.9598ms
+2022-07-31 20:45:44.003 +03:00 [INF] Executed endpoint 'Inventory.mvc.Controllers.HomeController.Index (Inventory.mvc)'
+2022-07-31 20:45:44.005 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-07-31 20:45:44.032 +03:00 [DBG] 'InventoryDbContext' disposed.
+2022-07-31 20:45:44.086 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7215/ - - - 200 - text/html;+charset=utf-8 10615.8472ms
+2022-07-31 20:45:44.102 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7215/lib/bootstrap/dist/css/bootstrap.min.css - -
+2022-07-31 20:45:44.103 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7215/lib/jquery/dist/jquery.min.js - -
+2022-07-31 20:45:44.103 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7215/Inventory.mvc.styles.css?v=yIsg_4Vunlkc4STLR93hRRXuPPEZDynRWuLi4q3D6mA - -
+2022-07-31 20:45:44.102 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7215/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c - -
+2022-07-31 20:45:44.131 +03:00 [INF] The file /css/site.css was not modified
+2022-07-31 20:45:44.125 +03:00 [INF] The file /lib/jquery/dist/jquery.min.js was not modified
+2022-07-31 20:45:44.125 +03:00 [INF] The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified
+2022-07-31 20:45:44.128 +03:00 [INF] The file /Inventory.mvc.styles.css was not modified
+2022-07-31 20:45:44.120 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7215/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+2022-07-31 20:45:44.137 +03:00 [DBG] Handled. Status code: 304 File: /css/site.css
+2022-07-31 20:45:44.138 +03:00 [DBG] Handled. Status code: 304 File: /lib/jquery/dist/jquery.min.js
+2022-07-31 20:45:44.140 +03:00 [DBG] Handled. Status code: 304 File: /lib/bootstrap/dist/css/bootstrap.min.css
+2022-07-31 20:45:44.144 +03:00 [DBG] Handled. Status code: 304 File: /Inventory.mvc.styles.css
+2022-07-31 20:45:44.146 +03:00 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified
+2022-07-31 20:45:44.151 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7215/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c - - - 304 - text/css 48.9361ms
+2022-07-31 20:45:44.153 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7215/lib/jquery/dist/jquery.min.js - - - 304 - application/javascript 50.8299ms
+2022-07-31 20:45:44.156 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7215/lib/bootstrap/dist/css/bootstrap.min.css - - - 304 - text/css 53.3114ms
+2022-07-31 20:45:44.158 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7215/Inventory.mvc.styles.css?v=yIsg_4Vunlkc4STLR93hRRXuPPEZDynRWuLi4q3D6mA - - - 304 - text/css 55.5025ms
+2022-07-31 20:45:44.161 +03:00 [DBG] Handled. Status code: 304 File: /lib/bootstrap/dist/js/bootstrap.bundle.min.js
+2022-07-31 20:45:44.165 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - -
+2022-07-31 20:45:44.169 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7215/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+2022-07-31 20:45:44.188 +03:00 [INF] The file /js/site.js was not modified
+2022-07-31 20:45:44.191 +03:00 [DBG] Handled. Status code: 304 File: /js/site.js
+2022-07-31 20:45:44.191 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7215/_framework/aspnetcore-browser-refresh.js - - - 200 11995 application/javascript;+charset=utf-8 25.9319ms
+2022-07-31 20:45:44.183 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7215/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 304 - application/javascript 62.7249ms
+2022-07-31 20:45:44.196 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7215/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 304 - application/javascript 26.5217ms
