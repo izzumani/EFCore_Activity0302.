@@ -6,6 +6,8 @@ using InventoryModels.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Serilog.Core;
+using InventoryModels.DTOs;
+using Microsoft.Data.SqlClient;
 
 namespace Inventory.Application
 {
@@ -138,6 +140,32 @@ namespace Inventory.Application
                 db.SaveChanges();
             }
         }
+
+        public void GetItemsForListing()
+        {
+            using (var db = new InventoryDbContext(_optionBuilder.Options))
+            {
+                var results = db.ItemsForListing.FromSqlRaw("EXECUTE dbo.GetItemsForListing").ToList();
+                foreach (var item in results)
+                {
+                    //Console.WriteLine($"ITEM {item.Id}] {item.Name}");
+                    _logger.Debug($"ITEM {item.Name} {item.Description} {item.CategoryName} {item.IsDeleted}");
+                }
+            }
+        }
+
+        public void GetAllActiveItemsAsPipeDelimitedString()
+        {
+            using (var db = new InventoryDbContext(_optionBuilder.Options))
+            {
+                var isActiveParm = new SqlParameter("IsActive", 1);
+                var result = db.AllItemsOutput.FromSqlRaw("SELECT [dbo].[ItemNamesPipeDelimitedString] (@IsActive)AllItems", isActiveParm).FirstOrDefault();
+                //Console.WriteLine($"All active Items: {result.AllItems}");
+                _logger.Debug($"All active Items: {result?.AllItems}");
+
+            }
+        }
+
 
     }
 }

@@ -2,6 +2,7 @@
 using System.IO;
 using Inventory.Common.ConfigBuilder;
 using Inventory.Common.LoggerBuilder;
+using InventoryModels.DTOs;
 using InventoryModels.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -17,6 +18,9 @@ namespace EFCore_DBLibrary
         public DbSet<Item> Items { get; set; }
         public DbSet<Category> Categories { get; set; }
         public DbSet<Genre> Genres { get; set; }
+
+        public DbSet<GetItemsForListingDto> ItemsForListing { get; set; }
+        public DbSet<AllItemsPipeDelimitedStringDto> AllItemsOutput { get; set; }
 
         // Add a default constructor if scaffolding is needed
         public InventoryDbContext() 
@@ -103,6 +107,17 @@ namespace EFCore_DBLibrary
                 .HasConstraintName("FK_PlayerItem_Items_ItemId")
                  .OnDelete(DeleteBehavior.ClientCascade)
                 );
+
+            modelBuilder.Entity<GetItemsForListingDto>(x =>
+            {
+                x.HasNoKey();
+                x.ToView("ItemsForListing");
+            });
+
+            modelBuilder.Entity<AllItemsPipeDelimitedStringDto>(x => {
+                x.HasNoKey();
+                x.ToView("AllItemsOutput");
+            });
         }
 
 
