@@ -10,6 +10,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using InventoryModels.Constants;
 namespace InventoryModels.Models
 {
+    [Table("CategoryDetails")]
     public class CategoryDetail : IIdentityModel
     {
         [Key, ForeignKey("Category")]

@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Migrations\Scripts\Functions\GetItemsTotalValue\GetItemsTotalValue.v0.sql" />
     <None Remove="Migrations\Scripts\Functions\ItemNamesPipeDelimitedString\ItemNamesPipeDelimitedString.v0.sql" />
     <None Remove="Migrations\Scripts\Procedures\GetItemsForListing\GetItemsForListing.v0.sql" />
     <None Remove="Migrations\Scripts\Procedures\GetItemsForListing\GetItemsForListing.v1.sql" />
@@ -14,6 +15,7 @@
 
   <ItemGroup>
     <None Include="Migrations\Scripts\MigrationBuilderSqlResource.cs" />
+    <EmbeddedResource Include="Migrations\Scripts\Functions\GetItemsTotalValue\GetItemsTotalValue.v0.sql" />
     <EmbeddedResource Include="Migrations\Scripts\Functions\ItemNamesPipeDelimitedString\ItemNamesPipeDelimitedString.v0.sql" />
     <EmbeddedResource Include="Migrations\Scripts\Procedures\GetItemsForListing\GetItemsForListing.v0.sql" />
     <EmbeddedResource Include="Migrations\Scripts\Procedures\GetItemsForListing\GetItemsForListing.v1.sql" />

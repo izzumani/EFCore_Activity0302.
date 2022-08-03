@@ -33,6 +33,9 @@ public class Program
         _logger.Debug("Get All Active Items As Pipe Delimited String --> Scalar Function");
         _consoleProgram.GetAllActiveItemsAsPipeDelimitedString();
 
+        _logger.Debug("Get Items Total Values --> Tabular Function");
+        _consoleProgram.GetItemsTotalValues();
+
     }
     
 }
