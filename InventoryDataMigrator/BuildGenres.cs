@@ -31,11 +31,11 @@ namespace InventoryDataMigrator
                 _logger.Debug($"Initiate Genre Migration");
                 _context.Genres.AddRange
                     (
-                     new Genre() { Id = 1, CreatedDate = genreCreateDate, IsActive = true, IsDeleted = false, Name = "Fantasy" },
-                            new Genre() { Id = 2, CreatedDate = genreCreateDate, IsActive = true, IsDeleted = false, Name = "Sci/Fi" },
-                            new Genre() { Id = 3, CreatedDate = genreCreateDate, IsActive = true, IsDeleted = false, Name = "Horror" },
-                            new Genre() { Id = 4, CreatedDate = genreCreateDate, IsActive = true, IsDeleted = false, Name = "Comedy" },
-                            new Genre() { Id = 5, CreatedDate = genreCreateDate, IsActive = true, IsDeleted = false, Name = "Drama" }
+                     new Genre() {  CreatedDate = genreCreateDate, IsActive = true, IsDeleted = false, Name = "Fantasy" },
+                            new Genre() { CreatedDate = genreCreateDate, IsActive = true, IsDeleted = false, Name = "Sci/Fi" },
+                            new Genre() { CreatedDate = genreCreateDate, IsActive = true, IsDeleted = false, Name = "Horror" },
+                            new Genre() { CreatedDate = genreCreateDate, IsActive = true, IsDeleted = false, Name = "Comedy" },
+                            new Genre() { CreatedDate = genreCreateDate, IsActive = true, IsDeleted = false, Name = "Drama" }
                     );
 
                 _context.SaveChanges();

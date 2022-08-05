@@ -23,6 +23,8 @@ namespace EFCore_DBLibrary
         public DbSet<AllItemsPipeDelimitedStringDto> AllItemsOutput { get; set; }
         public DbSet<GetItemsTotalValueDto> GetItemsTotalValues { get; set; }
 
+        public DbSet<FullItemDetailDTO> FullItemDetailDtos { get; set; }
+
         // Add a default constructor if scaffolding is needed
         public InventoryDbContext() 
         {
@@ -126,6 +128,12 @@ namespace EFCore_DBLibrary
                 x.ToView("GetItemsTotalValues");
             });
 
+            modelBuilder.Entity<FullItemDetailDTO>(x =>
+            {
+                x.HasNoKey();
+                x.ToView("FullItemDetailDtos");
+            });
+            /*
             var genreCreateDate = new DateTime(2021, 01, 01);
             modelBuilder.Entity<Genre>(x =>
             {
@@ -137,7 +145,7 @@ namespace EFCore_DBLibrary
                             new Genre() { Id = 5, CreatedDate = genreCreateDate, IsActive = true, IsDeleted = false, Name = "Drama" }
                         );
             });
-
+            */
 
         }
 

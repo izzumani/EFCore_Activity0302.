@@ -18,8 +18,8 @@ public class Program
         _configuration = ConfigurationBuilderSingleton.ConfigurationRoot;
         string connectionString = _configuration.GetConnectionString("InventoryManager");
         _consoleProgram = new ConsoleProgram(connectionString);
-        
-        //_consoleProgram.DeleteAllItems();
+        /*
+        _consoleProgram.DeleteAllItems();
         _consoleProgram.EnsureItems();
         _logger.Debug("New pr Existing Items");
         _consoleProgram.ListInvetory();
@@ -27,7 +27,7 @@ public class Program
         _consoleProgram.UpdateItems();
         _logger.Debug("Updated Items");
         _consoleProgram.ListInvetory();
-
+        */
         _logger.Debug("Get Items for Listing --> Stored Procedures");
         _consoleProgram.GetItemsForListing();
         _logger.Debug("Get All Active Items As Pipe Delimited String --> Scalar Function");
@@ -35,6 +35,10 @@ public class Program
 
         _logger.Debug("Get Items Total Values --> Tabular Function");
         _consoleProgram.GetItemsTotalValues();
+
+        _logger.Debug("Get Full Item Details --> View");
+        _consoleProgram.GetFullItemDetails();
+
 
     }
     

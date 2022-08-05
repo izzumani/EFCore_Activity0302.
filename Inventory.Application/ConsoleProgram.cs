@@ -180,8 +180,22 @@ namespace Inventory.Application
             }
         }
 
+        public void GetFullItemDetails()
+        {
+            using (var db = new InventoryDbContext(_optionBuilder.Options))
+            {
+
+                var result = db.FullItemDetailDtos.FromSqlRaw($"SELECT * FROM [dbo].[vwFullItemDetails] ORDER BY ItemName, GenreName,Category, PlayerName ").ToList();
+                foreach (var item in result)
+                {
+                    //Console.WriteLine($"New Item] {item.Id,-10}" + $"|{item.ItemName,-50}" + $"|{item.ItemDescription,-4}" + $"|{item.PlayerName,-5}" + $"|{item.Category,-5}" + $"|{item.GenreName,-5}");
+                    Console.WriteLine($"New Item] {item.Id,-10}" + $"|{item.ItemName,-50}" + $"|{item.ItemDescription,-4}");
+                }
+            }
+        }
 
 
 
-    }
+
+        }
 }
